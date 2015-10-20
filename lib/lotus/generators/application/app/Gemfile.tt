@@ -17,7 +17,6 @@ gem 'lotusrb',                           github: 'lotus/lotus'
 gem 'lotusrb',       '<%= Lotus::VERSION %>'
 gem 'lotus-model',   '<%= config[:lotus_model_version] %>'
 <%- end -%>
-
 <%- if config[:database_config][:gem] %>
 gem '<%= config[:database_config][:gem] %>'
 <%- end -%>
